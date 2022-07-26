@@ -1,0 +1,31 @@
+#bigbox {
+
+  display: grid;
+  grid-template-columns: auto auto;
+
+  background-color: rgb(146, 146, 146); 
+  border-color: black;
+  border-style: solid;
+  border-radius: 50px;
+  width: 400px;
+  height: 200px;
+  margin: 60px auto;
+
+  justify-content: center;
+
+}
+
+#results {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  background-color: rgb(212, 211, 211);
+  border-color: black;
+  border-style: solid;
+  border-radius: 50px;
+  width: 400px;
+  height: 250px;
+  margin: 60px auto;
+
+  justify-content: center;
+}

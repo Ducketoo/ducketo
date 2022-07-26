@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+
+    <link rel="icon" type="image/x-icon" href="/sources/significor.png">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/quadraculo/square.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <script src="/scripts/quadraculo/newsquares.js"></script>
+    <script src="/scripts/quadraculo/hidesquare.js"></script>
+    <script src="/scripts/quadraculo/points.js"></script>
+
+    <script type="module">
+
+        newsquares()
+        document.querySelector("#life").innerHTML = `${chance.toFixed(0)} Vidas`
+        
+    </script>
+
+</head>
+<body>
+    <h1 id="round"></h1>
+    <div class="bigbox"></div>
+    <div id="details">
+        <h3 id="squaren">-</h3>
+        <h1 id="life"></h1>
+        <h3 id="perfects"></h3>
+        <div id="warnings" hidden>
+            <h1 id="warn">A partir de agora você não receberá mais vidas por round concluído</h1>
+        </div>
+    </div>
+    <form id="end" hidden>
+        <h1 style="color: red">Fim de jogo</h1>
+        <button type="submit">Reiniciar</button>
+    </form>
+
+
+</body>
+</html>

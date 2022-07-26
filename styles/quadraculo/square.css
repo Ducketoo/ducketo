@@ -1,0 +1,34 @@
+.bigbox {
+    background-color: black;
+    width: 320px;
+    
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.square {
+    aspect-ratio: 1/1;
+
+    background-color: white;
+    color: rgb(255, 255, 255);
+}
+
+#details {
+    background-color: rgb(138, 138, 138);
+    
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 300px;
+
+    border-radius: 3px;
+
+}
+
+#warnings {
+    background-color: rgb(180, 39, 39);
+    color: white;
+}
+
